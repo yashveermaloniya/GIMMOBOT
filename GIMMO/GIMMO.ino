@@ -1,6 +1,6 @@
 // ESP32 Board link "https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json"
 
-#include <WiFi.h>
+
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 #include <Wire.h>
