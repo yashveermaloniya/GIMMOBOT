@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About GimmoBot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(circle at top, #0f1330, #05070f);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #eaeaf0;
+    }
+
+    .card {
+      max-width: 420px;
+      width: 100%;
+      background: rgba(20, 24, 48, 0.95);
+      padding: 28px 24px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+
+    .logo {
+      width: 140px;
+      margin-bottom: 16px;
+      border-radius: 50%;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 13px;
+      color: #cfd3ff;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .socials a {
+      text-decoration: none;
+    }
+
+    .socials img {
+      width: 34px;
+      transition: transform 0.2s;
+    }
+
+    .socials img:hover {
+      transform: scale(1.15);
+    }
+
+    .back {
+      display: inline-block;
+      font-size: 13px;
+      color: #38e8ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <img src="./logo.png" class="logo" alt="GimmoBot">
+
+    <h1>About GimmoBot 🤖</h1>
+
+    <p>
+      GimmoBot is a smart desktop companion robot that combines emotions,
+      real-time weather updates, and IoT technology.
+      Built using ESP32, it brings personality and intelligence to your workspace.
+    </p>
+
+    <div class="socials">
+      <a href="https://github.com/yashveermaloniya" target="_blank">
+        <img src="data:image/png;base64,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" alt="GitHub">
+      </a>
+      <a href="https://www.linkedin.com/in/yashveer-maloniya-1b5b08328/" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0bGEl9v47XieEtHyj0TqTr1tOXJmib-KHtw&s" alt="LinkedIn">
+      </a>
+    </div>
+
+    <a href="index.html" class="back">← Back to Setup</a>
+  </div>
+</body>
+</html>
