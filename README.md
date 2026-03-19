@@ -158,6 +158,15 @@ WiFi not connecting :-	Reset and retry
 No sound	:- Check buzzer
 Upload failed	:- Hold BOOT button
 
+#sollution for the sketch not added in library 
+
+Open the Arduino IDE
+Go to Sketch → Include Library → Manage Libraries…
+Search for "FluxGarage RoboEyes"
+Click Install
+After installation, the example sketches can be found under
+File → Examples → FluxGarage RoboEyes.
+
 👨‍💻 Author
 
 Yash Veer Maloniya
